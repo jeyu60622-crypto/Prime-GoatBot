@@ -52,7 +52,7 @@ module.exports = {
 
       // Step 3: Date (Bangladesh timezone)
       const date = new Date().toLocaleDateString("en-US", {
-        timeZone: "Asia/Dhaka",
+        timeZone: "Africa/SouthAfrica",
         day: "2-digit",
         month: "long",
         year: "numeric"
@@ -82,7 +82,7 @@ module.exports = {
 💻 ᴍᴇᴍᴏʀʏ : ${memoryUsage} MB
 👥 ᴛᴏᴛᴀʟ ᴜꜱᴇʀꜱ : ${totalUsers}
 💬 ᴛᴏᴛᴀʟ ᴛʜʀᴇᴀᴅꜱ : ${totalThreads}
-👑 ᴏᴡɴᴇʀ  : Mohammad Alamin
+👑 ᴏᴡɴᴇʀ  : イ Sʜᴀᴅᴇ終 
       `.trim();
 
       await delay(300);
